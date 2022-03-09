@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/perfil.css">
+    <title>Perfil</title>
+</head>
+<body>
+
+    <nav class="navegacion">
+        <ul class="menu">
+            <li id="perfil5"><a href="#">Perfiles</a>
+                <ul class="submenu">
+                    <li><a href="/html/perfil 1.html">Perfil 1</a></li>
+                    <li><a href="/html/perfil 2.html">Perfil 2</a></li>
+                </ul>
+            </li>
+            <li><a href="/home.html">Cerrar Sesion</a></li>
+        </ul>
+    </nav>
+    <main id="bloque">
+        <header> 
+            <h1 id="titulo">Calculadora</h1>
+        </header>
+        <p id="descripcion"><b>Nota:</b> Los datos deben ser ingresados en metros (m) </p>
+        <form> 
+            <label for="largo">Largo :</label> 
+            <input type="number" name="largo" step="0.01" class="datos" min="1" max="60" required placeholder="Ingrese el largo de la piscina" id="largo">
+            <label for="ancho"> Ancho :</label> 
+            <input type="number" name="ancho" step="0.01" class="datos" min="1" max="60" placeholder="Ingrese el ancho de la piscina" required id="ancho">
+            <label for="profundidad"> Extremo poco profundo:</label> 
+            <input type="number" name="profundidad" step="0.01" class="datos" min="1" max="60" placeholder="Ingrese el extremo poco profundo" required id="prof-min">
+            <label for="profundidad"> Extremo profundo:</label> 
+            <input type="number" name="profundidad" step="0.01" class="datos" min="1" max="60" placeholder="Ingrese el extremo peofundo" required id="prof-max">
+            <input type="submit" value="calcular" id="boton" onclick="Press();">
+        </form>
+        <script src="/js/calculadora.js"> </script>
+    </main>
+</body>
+</html>

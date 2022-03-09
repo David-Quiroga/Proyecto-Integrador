@@ -1,0 +1,72 @@
+.header {
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-image: url(/imagenes/atras.jpg);
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 18px;
+    margin-top: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.social {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.iconos {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.email {
+    background-image: url(/imagenes/email.png);
+}
+
+.fb {
+    background-image: url(/imagenes/facebook.png);
+}
+
+.tw {
+    background-image: url(/imagenes/gorjeo.png);
+}
+
+.about {
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.about h3 {
+    color: black;
+    font-size: 16px;
+}
+
+.about p {
+    color: black;
+    font-size: 14px;
+}
